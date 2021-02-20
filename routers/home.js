@@ -14,7 +14,7 @@ router.get('/sendData', (req, res, next) => {
             error: 'Error!! no data found!!',
         });
     }
-    
+
     res.send({
         sensorData: data,
     });
